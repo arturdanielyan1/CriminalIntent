@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Criminal Intent</string>
+    <string name="crime_title_hint">Enter a title for the crime</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved</string>
+    <string name="serious_crime">Requires Police</string>
+    <string name="list_empty">List is empty</string>
+    <!--BUTTONS/////////////////////////////////////////////////////////////////////-->
+    <string name="to_first_crime_button">To first crime</string>
+    <string name="to_last_crime_button">To last crime</string>
+    <string name="delete_crime_button">Delete Crime</string>
+    <string name="create_crime_button">Create Crime</string>
+
+    <string name="choose_suspect_button">Choose Suspect</string>
+    <string name="crime_report_button">Send Crime Report</string>
+    <!--DIALOGS/////////////////////////////////////////////////////////////////////-->
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="time_picker_title">Time of crime:</string>
+    <!--MENU////////////////////////////////////////////////////////////////////////-->
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+
+    <plurals name="subtitle_format">
+        <item quantity="one">%1$d crime</item>
+        <item quantity="other">%1$d crimes</item>
+    </plurals>
+
+    <!--CRIME REPORT/////////////////////////////////////////////////////////////////-->
+    
+    <string name="crime_report">%1$s!
+        The crime was discovered on %2$s at %3$s. %4$s, and %5$s
+    </string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_no_suspect">there is no suspect</string>
+    <string name="crime_report_suspect">the suspect is %s.</string>
+    <string name="crime_report_subject">Criminal Intent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
+</resources>
